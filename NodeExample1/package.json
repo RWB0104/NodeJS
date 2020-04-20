@@ -1,0 +1,25 @@
+{
+  "name": "nodeexample1",
+  "version": "1.0.0",
+  "description": "NodeExample1 연습용 Module",
+  "main": "calc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RWB0104/NodeJS.git"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "RWB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RWB0104/NodeJS/issues"
+  },
+  "homepage": "https://github.com/RWB0104/NodeJS#readme",
+  "dependencies": {
+    "nconf": "^0.10.0"
+  }
+}
