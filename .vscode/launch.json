@@ -5,10 +5,26 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"type": "node",
+			"type":"node",
 			"request": "launch",
-			"name": "Node JS",
-			"program": "${file}"
+			"name": "Node JS Terminal",
+			"program": "${file}",
+			"cwd": "${fileDirname}",
+			"skipFiles": [
+				"<node_internals>/**"
+			],
+			"console":"integratedTerminal"
+		},
+		{
+			"type":"node",
+			"request": "launch",
+			"name": "Node JS Debug Console",
+			"program": "${file}",
+			"cwd": "${fileDirname}",
+			"skipFiles": [
+				"<node_internals>/**"
+			],
+			"console":"internalConsole"
 		}
 	]
 }
