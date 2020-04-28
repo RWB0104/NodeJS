@@ -402,8 +402,6 @@ function createUserSchema()
 		return name.length;
 	}, "name 칼럼의 값이 없습니다.");
 
-	console.log("UserSchema 정의함.");
-
 	// UserModel 모델 정의
 	UserModel = mongoose.model("users3", UserSchema);
 

@@ -19,6 +19,9 @@
 		{
 			var curDate = moment().format("YYYY-MM-DD HH:mm");
 
+			readURL($("#photoInput")[0]);
+
+			// 페이지가 새로 로딩되어도 file 태그에 파일이 있으면 이미지 로딩
 			$("#createDate").attr("value", curDate);
 
 			// 파일선택 값이 바뀌면
